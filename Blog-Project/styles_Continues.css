@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.container{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}  
+
+#title{
+    font-size: 350%;
+}
+
+#image{
+    padding-right: 10%;
+    height: 20px;
+}
+
+#Subscribe{
+    padding-left: 10%;
+    padding-top: 0.5%;
+    color: gray;
+}
+
+.BigContainer{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(3,1fr);
+
+    grid-gap: 40px;
+    padding-left: 10%;
+    
+}
+
+.world{
+    border: 5px solid rgb(199, 188, 188);
+    padding: 3%;
+    height: 200px;
+    width: 600px;
+    color: blue
+}
+
+.design{
+    border: 5px solid rgb(199, 188, 188);
+    padding: 3%;
+    height: 200px;
+    width: 600px;
+    color: green;   
+}
+
+#first{
+    border: 2px solid gray;
+}
+
+.content{
+    color: black;
+}

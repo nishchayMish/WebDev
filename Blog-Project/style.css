@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  padding: 1%;
+}  
+
+.container{
+  display: flex;
+}
+
+.pack{
+  padding-right: 20%;
+}
+
+.nav{
+  padding: 1%;
+  display: flex;
+}
+
+#heading{
+  font-size: 200%;
+  padding-left: 38rem;
+}
+
+.nav2{
+  padding: auto;
+  font-size: 150%;
+}
+
+.box{
+  border: 1px solid gray;
+  height: 80px;
+}
+.box1{
+  border: 1px solid gray;
+  height: 30px;
+}
+
+.button {
+  background-color: solid grey;
+  border: 1px solid blue;
+  color: blue;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+
+.button5 {
+  border-radius: 50%;
+}
+
+#new{
+  border: 1px solid grey;
+  color: grey;
+}
+
+.sidebar{
+  padding-top: 3.5%;
+}
+
+.about{
+  background-color: rgb(190, 185, 185);
+  width: 350px;
+  height: 200px;
+  border: 1px solid gray;
+  padding: 5%;
+}
+
+.archive{
+  padding-left: 5;
+}
+.months{
+  color: blue;
+}
