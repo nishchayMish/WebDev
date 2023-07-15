@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+.wrapper{
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.container{
+    border: 5px solid gray;
+    padding-right: 70%;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px lightslategray;
+    transform: scale(0.5);
+    background-color: rgb(183, 225, 225);
+}
+
+.image{
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+#photo{
+    border-radius: 30px;
+    height: 400px;
+    width: 700px;
+}
+
+#caption{
+    padding-left: 1.5%;
+}
+
+#line{
+    padding-left: 30%;
+    color: rgb(223, 207, 207);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 200%;
+    padding-left: 30%;
+    padding-bottom: 1%;
+} 
+
+#actualPrice{
+    color: rgb(102 116 204);
+}
+
+#deletedPrice{
+    color: gray;
+    padding-left: 30%;
+    padding-right: 20%;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding-left: 2%;
+    font-size: 32px;
+    border-radius: 12px;
+}
